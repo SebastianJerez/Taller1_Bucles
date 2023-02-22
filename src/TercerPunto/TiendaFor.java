@@ -18,7 +18,7 @@ public class TiendaFor {
         
         Scanner entrada = new Scanner(System.in);
         entrada.useDelimiter("\n");
-        int numero = (int)(Math.random()*23+1);
+        int numero = (int)(Math.random()*5+1);
         String aux1, aux2="", aux3="";
         
         System.out.println("Tienda de Productos (Usando FOR)");
